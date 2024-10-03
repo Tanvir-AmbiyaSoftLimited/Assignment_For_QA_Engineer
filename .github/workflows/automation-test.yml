@@ -13,7 +13,7 @@ jobs:
     - name: Set up python
       uses: actions/setup-pyhton@v2
       with:
-        pyhton-version: '3.12.7'
+        pyhton-version: '3.8'
 
     - name: Install dependencies
       run: |
